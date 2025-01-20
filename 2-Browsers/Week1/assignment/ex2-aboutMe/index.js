@@ -13,7 +13,4 @@ document.getElementById('fav-food').textContent = 'Kabab';
 document.getElementById('hometown').textContent = 'Orumieh';
 
 const listItems = document.querySelectorAll('li');
-listItems.forEach((item) => {
-  item.className = 'list-item';
-  item.style.color = 'red';
-});
+liElements.forEach((el) => el.classList.add('list-item'));
