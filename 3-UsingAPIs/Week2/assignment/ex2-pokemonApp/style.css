@@ -1,1 +1,30 @@
-/* add your styling here */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4e3e3;
+}
+#pokemon-select {
+  padding: 8px;
+  margin: 12px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#pokemon-image {
+  margin: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+#pokemon-image:hover {
+  transform: scale(1.1);
+}
